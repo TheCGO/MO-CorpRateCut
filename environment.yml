@@ -1,0 +1,18 @@
+name: mo-corpratecut-dev
+channels:
+- conda-forge
+dependencies:
+- python>=3.9, <3.11
+- ipython
+- jupyter
+- numpy
+- pandas>=1.4.4
+- openpyxl
+- plotly
+- bokeh<=2.4.3
+- matplotlib
+- pip
+- pip:
+    - cost-of-capital-calculator
+    - taxcalc
+    - selenium
